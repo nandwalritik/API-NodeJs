@@ -2,7 +2,7 @@
 const http = require('http');         // imported http in constant variable named http 
 const app = require('./app.js');      // importing app.js
 
-const port = process.env.PORT || 2020 // port at which our project shold run
+const port = process.env.PORT || 2020 // port at which our project should run
                                       // we can get this port through environment variable or hardcode it here
                                       // process.env simply accesses nodejs environment variable
                                       // if not set we will use 3000 as default port
